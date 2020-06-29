@@ -3,7 +3,7 @@ module.exports = {
     excludes: ["**/__tests__/**/*", "**/@sdk/**/*"],
     service: {
       name: "saleor",
-      url: "http://localhost:8000/graphql/",
+      url: "https://saleor-backend-dot-rila-dev-281513.ew.r.appspot.com/graphql/",
     },
   },
 };

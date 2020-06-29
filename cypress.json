@@ -1,7 +1,7 @@
 {
-  "baseUrl": "http://localhost:3000",
+  "baseUrl": "https://rila-dev-281513.ew.r.appspot.com",
   "env": {
-    "API_URI": "https://pwa.demo.saleor.rocks/graphql/"
+    "API_URI": "https://saleor-backend-dot-rila-dev-281513.ew.r.appspot.com/graphql/"
   },
   "defaultCommandTimeout": 15000,
   "requestTimeout": 15000,
