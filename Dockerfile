@@ -1,10 +1,10 @@
-FROM node:10 as builder
+FROM node:10.0 as builder
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
 ARG API_URI
-ENV API_URI ${API_URI:-http://localhost:8000/graphql/}
+ENV API_URI ${API_URI:-https://saleor-backend-dot-rila-dev-281513.ew.r.appspot.com/graphql/}
 RUN API_URI=${API_URI} npm run build
 
 FROM nginx:stable

@@ -1,0 +1,4 @@
+dispatch:
+  # Send all graphql traffic to the saleor backend.
+  - url: "*/graphql/*"
+    service: saleor-backend
